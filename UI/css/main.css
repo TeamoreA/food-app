@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+
+}
+
+.container {
+	padding: 50px;
+	background-color: gray;
+	width: 40%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px 0 darkgray;
+
+}
+small a {
+  color: black;
+}
+
+/*.content {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  width: 50%;
+}*/
+
+/*navigation styles*/
+ul {
+	font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: sticky;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ddd;
+}
+
+li a.active {
+    /*color: white;*/
+    background-color: #ddd;
+}
+
+
+/*form styles*/
+
+/*form {border: 3px solid #f1f1f1;}*/
+form {
+	padding: 20px;
+}
+
+.form-control {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.button {
+    font-size: 16px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+.form-container {
+    padding: 16px;
+}
+
+.button-success {
+  background-color: green;
+}
+
+.button-primary {
+  background-color: blue;
+}
+.button-danger {
+  background-color: red;
+ }
+
+.button-small {
+  color: white;
+  padding: 5px 20px;
+  margin-top: 2px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  border-radius: 5px;
+}
+
+.button-small:hover {
+    opacity: 0.6;
+}
+
+
+/*span.psw {
+    float: right;
+    padding-top: 16px;
+}*/
