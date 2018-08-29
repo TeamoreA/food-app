@@ -101,7 +101,6 @@ form {
     opacity: 0.8;
 }
 
-
 .form-container {
     padding: 16px;
 }
@@ -116,6 +115,10 @@ form {
 .button-danger {
   background-color: red;
  }
+ .button-default{
+    background-color: #007bff;
+    border-color: #007bff;
+}
 
 .button-small {
   color: white;
