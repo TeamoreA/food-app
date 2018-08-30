@@ -65,6 +65,9 @@ li a.active {
     /*color: white;*/
     background-color: #ddd;
 }
+.header {
+  margin-bottom: 25px;
+}
 
 
 /*form styles*/
@@ -95,6 +98,7 @@ form {
     cursor: pointer;
     width: 120px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -134,6 +138,30 @@ form {
 .button-small:hover {
     opacity: 0.6;
 }
+
+.left-align {
+  display: inline;
+  margin-right: 30px;
+}
+.link-btn {
+  font-size: 16px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.link-btn:hover {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 
 /*span.psw {
