@@ -48,7 +48,7 @@
 							<td>$299</td>
 							<td>
 								<a class="button-small button-success" href="edit.html">Edit</a>
-								<button class="button-small button-danger" href="#">Delete</button>
+								<button class="button-small button-danger" href="#" onclick="confirmDelete()">Delete</button>
 							</td>
 						</tr>
 						<tr>
@@ -57,7 +57,7 @@
 							<td>$299</td>
 							<td>
 								<a class="button-small button-success" href="edit.html">Edit</a>
-								<button class="button-small button-danger" href="#">Delete</button>
+								<button class="button-small button-danger" href="#" onclick="confirmDelete()">Delete</button>
 							</td>
 						</tr>
 						<tr>
@@ -66,7 +66,7 @@
 							<td>$299</td>
 							<td>
 								<a class="button-small button-success" href="edit.html">Edit</a>
-								<button class="button-small button-danger" href="#">Delete</button>
+								<button class="button-small button-danger" href="#" onclick="confirmDelete()">Delete</button>
 							</td>
 						</tr>
 						<tr>
@@ -75,11 +75,22 @@
 							<td>$999</td>
 							<td>
 								<a class="button-small button-success" href="edit.html">Edit</a>
-								<button class="button-small button-danger" href="#">Delete</button>
+								<button class="button-small button-danger" href="#" onclick="confirmDelete()">Delete</button>
 							</td>
 						</tr>
 					</table>
 			</div>
 	</div>
+
+	<script type="text/javascript">
+		function confirmDelete() {
+			var x = confirm("Are you sure to delete? This action is irreversible.");
+			if (x) {
+				return true;
+			}else {
+				return false;
+			}
+		}
+	</script>
 </body>
 </html>
