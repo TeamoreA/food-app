@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="../css/forms.css">
 	<style type="text/css">
 		body {
-		    background-image: url(../images/1.jpg);
+		    background-image: url(../images/3.jpg);
 		    background-size: cover;
 		    color: white;
 		    background-repeat: no-repeat;
@@ -19,48 +19,67 @@
 </head>
 <body>
 	<ul>
-	  <li><a class="active" href="#">Home</a></li>
-	  <li><a href="#">Orders</a></li>
-	  <li><a href="#">Login</a></li>
-	  <li><a href="#">Register</a></li>
+	  <li><a href="../user/order_food.html">Home</a></li>
+	  <li><a href="../user/my_orders.html">Orders</a></li>
+		<li><a class="active" href="index.html">Food Items</a></li>
+		<li><a href="orders.html">All Orders</a></li>
+	  <li><a href="../login.html">Login</a></li>
+	  <li><a href="../register.html">Register</a></li>
 	</ul>
 	<div class="content-container">
 
 
 	    <!-- end of .nav -->
-			<h2>Edit Food Item</h2>
-            <table>
-                <tr>
-                  <th>#</th>
-                  <th>Order Name</th>
-                  <th>Price</th>
-                  <th></th>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Pizza</td>
-                  <td>$299</td>
-                  <td><button class="button-small button-success" href="#">Edit</button><button class="button-small button-danger" href="#">Delete</button></td>
-                </tr>
-								<tr>
-                  <td>2</td>
-                  <td>Chicken</td>
-                  <td>$299</td>
-                  <td><button class="button-small button-success" href="#">Edit</button><button class="button-small button-danger" href="#">Delete</button></td>
-                </tr>
-								<tr>
-                  <td>3</td>
-                  <td>Beef</td>
-                  <td>$299</td>
-                  <td><button class="button-small button-success" href="#">Edit</button><button class="button-small button-danger" href="#">Delete</button></td>
-                </tr>
-								<tr>
-                  <td>4</td>
-                  <td>Pizza</td>
-                  <td>$999</td>
-                  <td><button class="button-small button-success" href="#">Edit</button><button class="button-small button-danger" href="#">Delete</button></td>
-                </tr>
-              </table>
+			<div class="header">
+				<h2 class="left-align">Edit Food Item</h2>
+				<a class="link-btn left-align button-primary" href="create.html">Add New</a>
+			</div>
+			<div>
+				<table>
+						<tr>
+							<th>#</th>
+							<th>Order Name</th>
+							<th>Price</th>
+							<th></th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Pizza</td>
+							<td>$299</td>
+							<td>
+								<a class="button-small button-success" href="edit.html">Edit</a>
+								<button class="button-small button-danger" href="#">Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Chicken</td>
+							<td>$299</td>
+							<td>
+								<a class="button-small button-success" href="edit.html">Edit</a>
+								<button class="button-small button-danger" href="#">Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Beef</td>
+							<td>$299</td>
+							<td>
+								<a class="button-small button-success" href="edit.html">Edit</a>
+								<button class="button-small button-danger" href="#">Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Pizza</td>
+							<td>$999</td>
+							<td>
+								<a class="button-small button-success" href="edit.html">Edit</a>
+								<button class="button-small button-danger" href="#">Delete</button>
+							</td>
+						</tr>
+					</table>
+			</div>
 	</div>
 </body>
 </html>
