@@ -24,16 +24,11 @@ small a {
   color: black;
 }
 
-/*.content {
-  background: #ffffff;
-  padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  margin-bottom: 20px;
-  width: 50%;
-}*/
 
 /*navigation styles*/
+/*.navbar {
+  position: fixed;
+}*/
 ul {
 	font-size: 18px;
     list-style-type: none;
@@ -72,7 +67,6 @@ li a.active {
 
 /*form styles*/
 
-/*form {border: 3px solid #f1f1f1;}*/
 form {
 	padding: 20px;
 }
@@ -146,8 +140,10 @@ form {
 .link-btn {
   font-size: 16px;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 0;
   border: none;
   cursor: pointer;
   width: 120px;
@@ -161,10 +157,74 @@ form {
 a {
   text-decoration: none;
 }
+.home {
+  background-size: cover;
+  background-color: gray;
+  opacity: 0.9;
+  height: 70vh;
+  margin: 0;
+  padding-top: 100px;
+}
+.centerh {
+  text-align: center;
+  font-size: 40px;
+}
+.centerp {
+  text-align: center;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #f3f3f3;
+  opacity: 0.8;
+  width: 96%;
+  margin: auto;
+  border-radius: 5px;
+}
+ footer p {
+   padding: 4px;
+   text-align: center;
+   color: black;
+   font-size: 14px;
+
+ }
+
+ /* Flaot Links to Right */
+ .float-links-right {
+  float: right;
+ }
+
+/*food cards*/
+.main-container{
+        width: 80%;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        /*text-align: center;*/
+      }
 
 
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 10px;
+        transition: 0.3s;
+        width: 20%;
+        background-color: gray;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px;
+      }
 
-/*span.psw {
-    float: right;
-    padding-top: 16px;
-}*/
+      .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+      }
+
+      .myContainer {
+          padding: 2px 16px;
+          
+      }
+       .image {
+        border-radius: 40px;
+       }

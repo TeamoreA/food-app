@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Login Form</title>
+	<title>Welcome page</title>
 	<link rel="stylesheet" href="css/main.css">
 	<style type="text/css">
 		body {
@@ -15,51 +15,111 @@
 		    background-attachment: fixed;
 		    opacity: 0.95;
 		  }
+
 	</style>
 </head>
 <body>
-	<ul>
-	  <li><a href="user/order_food.html">Home</a></li>
-	  <li><a href="user/my_orders.html">Orders</a></li>
-		<li><a href="admin/index.html">Food Items</a></li>
-		<li><a href="admin/orders.html">All Orders</a></li>
-	  <li><a class="active" href="login.html">Login</a></li>
-	  <li><a href="register.html">Register</a></li>
-	</ul>
-	<div class="container">
+	<nav>
+		<ul>
+		  <li><a class="active" href="index.html">Home</a></li>
+		  <li><a href="user/my_orders.html">Orders</a></li>
+		  <li><a href="admin/index.html">Food Items</a></li>
+		  <li><a href="admin/orders.html">All Orders</a></li>
+		  <div class="float-links-right">
+			  <li><a href="login.html">Login</a></li>
+			  <li><a href="register.html">Register</a></li>
+		  </div>
+		</ul>
+	</nav>
+	
+	
+	<div class="main-container"> <!-- main div -->
+		<div class="card">
+		  <img src="images/pepperoni.png" class="image" alt="Avatar" width="195px" height="190" >
+		  <div class="myContainer">
+		    <h4><b>Pizza</b></h4> 
+		    <p>This is the sweetest pizza in town</p> 
+		    <p> <strong>price:</strong> <em>$555</em></p> 
+		    <button class="button-small button-success" href="#">Order</button>
+		 </div>
+		</div>
+
+		<div class="card">
+		  <img src="images/food3.jpg" class="image" alt="Avatar" width="195px" height="190" >
+		  <div class="myContainer">
+		    <h4><b>Burger</b></h4> 
+		    <p>Donts even mention its damn yummy</p> 
+		    <p> <strong>price:</strong> <em>$555</em></p> 
+		    <button class="button-small button-success" href="#">Order</button>
+		 </div>
+		</div>
+
+		<div class="card">
+		  <img src="images/pepperoni.png" class="image" alt="Avatar" width="195px" height="190" >
+		  <div class="myContainer">
+		    <h4><b>Fried Chicken</b></h4> 
+		    <p>By one get 20 more. We such serious</p> 
+		    <p> <strong>price:</strong> <em>$555</em></p> 
+		    <button class="button-small button-success" href="#">Order</button>
+		 </div>
+		</div>
+
+		<div class="card">
+		  <img src="images/pepperoni.png" class="image" alt="Avatar" width="195px" height="190" >
+		  <div class="myContainer">
+		    <h4><b>Sukuma with soup</b></h4> 
+		    <p>This guarantees that your money is fully utilised</p> 
+		    <p> <strong>price:</strong> <em>$490</em></p> 
+		    <button class="button-small button-success" href="#">Order</button>
+		 </div>
+		</div>
+
+		<div class="card">
+		  <img src="images/food2.jpg" class="image" alt="Avatar" width="195px" height="190" >
+		  <div class="myContainer">
+		    <h4><b>Burger</b></h4> 
+		    <p>Donts even mention its damn yummy</p> 
+		    <p> <strong>price:</strong> <em>$555</em></p> 
+		    <button class="button-small button-success" href="#">Order</button>
+		 </div>
+		</div>
+
+		<div class="card">
+		  <img src="images/pepperoni.png" class="image" alt="Avatar" width="195px" height="190" >
+		  <div class="myContainer">
+		    <h4><b>Fried Chicken</b></h4> 
+		    <p>By one get 20 more. We such serious</p> 
+		    <p> <strong>price:</strong> <em>$555</em></p> 
+		    <button class="button-small button-success" href="#">Order</button>
+		 </div>
+		</div>
+
+		<div class="card">
+		  <img src="images/food4.jpg" class="image" alt="Avatar" width="195px" height="190" >
+		  <div class="myContainer">
+		    <h4><b>Fried Chicken</b></h4> 
+		    <p>By one get 20 more. We such serious</p> 
+		    <p> <strong>price:</strong> <em>$555</em></p> 
+		    <button class="button-small button-success" href="#">Order</button>
+		 </div>
+		</div>
+
+		<div class="card">
+		  <img src="images/food1.jpg" class="image" alt="Avatar" width="195px" height="190" >
+		  <div class="myContainer">
+		    <h4><b>Sukuma with soup</b></h4> 
+		    <p>This guarantees that your money is fully utilised</p> 
+		    <p> <strong>price:</strong> <em>$490</em></p> 
+		    <button class="button-small button-success" href="#">Order</button>
+		 </div>
+		</div>
+
+	</div> <!-- end of .main-container -->
+	
 
 
-	    <!-- end of .nav -->
-			<h2>Login Form</h2>
-
-			<form action="#">
-
-
-			  <div class="form-container">
-			  	<div>
-			  		<label for="email"><b>Email</b><br></label>
-			    	<input class="form-control" type="email" placeholder="Enter Email" name="email" required>
-			  	</div>
-
-				<div>
-					<label for="password"><b>Password</b><br></label>
-				    <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
-				</div>
-
-			     <div>
-			     	<button class="button button-primary" type="submit">Login</button>
-			     	<label>
-				      <input type="checkbox" checked="checked" name="remember"> Remember me
-				    </label>
-			     </div>
-			  </div>
-			</form>
-		<!-- end of .content -->
-		<div>
-	        <small>
-	            Need An Account? <a href="register.html">Sign Up Now</a>
-	        </small>
-	    </div>
-	</div>
+	<footer>
+		<p>Developed by Developer-X copyright 2018.</p>
+	</footer>
 </body>
 </html>
